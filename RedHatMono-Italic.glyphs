@@ -820,6 +820,24 @@ lookup SUB_12;
 tag = zero;
 },
 {
+code = "lookup SUB_CODING{
+    sub hyphen greater by hyphen_greater.liga;
+	sub colon colon by colon_colon.liga;
+	sub exclam equal by exclam_equal.liga;
+	sub exclam equal equal by exclam_equal_equal.liga;
+	sub bar greater	by pipe_greater.liga;
+	sub equal equal by equal_equal.liga;
+	sub equal equal equal by equal_equal_equal.liga;
+	sub equal greater by equal_greater.liga;
+	sub greater equal by greater_equal.liga;
+	sub less equal by less_equal.liga;
+	sub less hyphen greater by less_hyphen_greater.liga;
+	sub less equal greater by less_equal_greater.liga;
+} SUB_CODING;
+";
+tag = liga;
+},
+{
 code = "script DFLT;
 language dflt;
 lookup SUB_13 {
@@ -1356,24 +1374,6 @@ language TRK;
 lookup POS_2;
 ";
 tag = mkmk;
-},
-{
-code = "lookup SUB_CODING{
-    sub hyphen greater by hyphen_greater.liga;
-	sub colon colon by colon_colon.liga;
-	sub exclam equal by exclam_equal.liga;
-	sub exclam equal equal by exclam_equal_equal.liga;
-	sub bar greater	by pipe_greater.liga;
-	sub equal equal by equal_equal.liga;
-	sub equal equal equal by equal_equal_equal.liga;
-	sub equal greater by equal_greater.liga;
-	sub greater equal by greater_equal.liga;
-	sub less equal by less_equal.liga;
-	sub less hyphen greater by less_hyphen_greater.liga;
-	sub less equal greater by less_equal_greater.liga;
-} SUB_CODING;
-";
-tag = liga;
 }
 );
 fontMaster = (
